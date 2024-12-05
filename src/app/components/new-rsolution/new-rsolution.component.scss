@@ -19,11 +19,17 @@ textarea {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: var(--ide-bgcolor);
+  color: var(--ide-color);
   font-size: 11px;
   resize: none;
 }
 
 textarea:focus-visible {
-  border: 2px solid #a5a5a5;
+  border: 2px solid var(--ide-silent-color);
+}
+
+button {
+  background-color: var(--ide-btn-bgcolor);
+  color: var(--ide-btn-color);
 }

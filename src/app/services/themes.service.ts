@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { IThemeParams } from "../typings/interfaces";
 
-@Injectable()
+@Injectable({providedIn: 'root'})
 export class ThemesService {
   private element: any;
   private map: Map<string, Map<string, string>>;

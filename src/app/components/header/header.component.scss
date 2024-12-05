@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+
+.flex-box {
+  margin: auto;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-end {
+  text-align: end;
+}
+
+.title {
+  font-size: 20x !important;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.theme-btn-dark {
+  border-radius: 5px;
+  padding: 5px 8px;
+  background-color: #333333;
+  color: white;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.theme-btn-light {
+  border-radius: 5px;
+  padding: 5px 8px;
+  background-color: #ffffff;
+  color: rgb(65 65 65);
+  font-size: 10px;
+  margin-right: 5px;
+}

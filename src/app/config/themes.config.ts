@@ -16,7 +16,7 @@ export const Themes: IThemesConfig = {
         '--ide-ws-nav-btn-border-color': { 'vs-dark': '1px solid #ffffff', 'vs-light': '1px solid #666666'},
 
         //top nav
-        '--ide-top-nav-bgcolor': { 'vs-dark': '#2e3138', 'vs-light': '#8f8f8f'},
+        '--ide-top-nav-bgcolor': { 'vs-dark': '#2e3138', 'vs-light': '#b7b7b7'},
         //sider
         '--ide-section-header-bgcolor': { 'vs-dark': '#2f3138', 'vs-light': '#80808033'},
         '--ide-sider-bgcolor': {'vs-dark': '#15181E', 'vs-light': '#f3f3f3'},
